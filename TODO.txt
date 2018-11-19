@@ -1,4 +1,4 @@
-- Add Mapbox API key to appropriate files - restaurant_info.js, main.js
+- Add Mapbox API key to appropriate files - restaurant_info.js, main.js - done
 - Add responsiveness to stylesheet
-- Add a11y to
+- Add a11y to main.js and main.html and possibly restaurant.html - done
 - Add service worker
