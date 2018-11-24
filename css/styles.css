@@ -108,6 +108,7 @@ nav h1 a {
   width: 100%;
   background-color: #3397DB;
   align-items: center;
+	padding: 10px;
 }
 .filter-options h2 {
   color: white;
@@ -137,7 +138,28 @@ nav h1 a {
   text-align: center;
 	/* CSS grid implementation */
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px){
+		#restaurants-list{
+			grid-template-columns: 1fr;
+		}
+	}
+	@media all and (min-width: 600px) and (max-width: 949px) {
+  #restaurants-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (min-width: 950px) and (max-width: 1199px) {
+  #restaurants-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media all and (min-width: 1200px) {
+  #restaurants-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 #restaurants-list li {
   background-color: #fff;
