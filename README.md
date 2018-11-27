@@ -1,6 +1,5 @@
-# Mobile Web Specialist Certification Course
----
-## Project Overview: Stage 1
+
+## Project Overview
 
 Restaurant Review app for Udacity Front-End Web Development course
 
